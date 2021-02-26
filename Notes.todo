@@ -1,0 +1,92 @@
+for run   php artisan db:seed           seeder/DataBaseSeeder     active all tables
+php artisan make:seeder  name
+
+
+model::find($id)    => exit function return thing instead of $id
+
+frogien Key   in new  migration
+
+template  on laravel
+
+
+php artisan route:list
+
+
+Route::apiResource('PostResource',controller);  // documentation
+
+# in seeder
+ \App\PostResource::create([
+            'title'=>'intoduction to js',
+            'slug'=>Str::slug('introduction to js'),    //use with slug
+ ]);
+
+
+
+stop for delete   <category></category>  i'am not deleted
+
+command + shift + p    pola      screenshot
+control + option + L    after select variable     perform console.log()
+command + shift + L       select all the same word
+command + D     for  word the same next word
+shift + o  open terminal
+shift + command + k     delete line
+
+command + \     split termainl
+command +control + upper   resise of tirmenal
+
+command +p    for search file
+command + space    search in mac
+command + alt  + space   search in finder of mac
+
+composer require pusher/pusher-php-server "~4.0"
+npm install --save laravel-echo pusher-js       // for recieve notifications
+    .env
+    1- BROADCAST_DRIVER=pusher
+    2- password ,id ,ect..
+providers/broadcastServiceProvider
+   make Route web API
+
+config/app.php
+    delete comment for  broadcastServiceProvider
+
+config/broadcast.php
+    ssl -> false    'encrypted'=>true
+
+event
+broadcase for event  in CommentController
+channal
+app.js   add authorization for laravel echo
+bootstrap.js  add and remove comments
+make listener in vue.js
+
+
+php artisan notifications:table      //for store notifications in db
+php artisan migrate
+php artisan make:notification NotifyOwner
+use notification in CommentController
+
+cmd + shift + p    for open network in edge
+
+
+ .mesgs
+        .msg_history
+          .incoming_msg
+            .incoming_msg_img
+              img(src='https://ptetutorials.com/images/user-profile.png' alt='sunil')
+            .received_msg
+              .received_withd_msg
+                p
+                  | Test which is a new approach to have all
+                  | solutions
+                span.time_date  11:01 AM    |    June 9
+          .outgoing_msg
+            .sent_msg
+              p
+                | Test which is a new approach to have all
+                | solutions
+              span.time_date  11:01 AM    |    June 9
+
+!bcdn + TAB    for write all information of bootstrap and else in app.blade.php  or any page
+
+
+Eva dark italic   theme i used
