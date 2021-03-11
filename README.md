@@ -1,6 +1,11 @@
-composer install
-npm install
-npm run watch
-php artisan serve
-php artisan storage:link
-php artisan websockets:serve
+#  setting 
+
+## composer install
+## npm install
+## npm run watch
+## php artisan storage:link
+## php artisan serve
+## php artisan websockets:serve
+
+### http://127.0.0.1:8000/admin-panel
+
