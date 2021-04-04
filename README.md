@@ -1,6 +1,7 @@
 #  setting 
 
 ## composer install
+## php artisan generate:key
 ## npm install
 ## npm run watch
 ## php artisan storage:link
