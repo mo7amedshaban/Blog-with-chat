@@ -10,7 +10,7 @@
     RewriteCond %{HTTP:X-Forwarded-Proto} =""
     RewriteCond %{HTTPS} !=on
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-        #########################3
+        #########################3 4
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
