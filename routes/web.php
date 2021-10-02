@@ -27,3 +27,7 @@ Route::get('/', 'HomeController@index')->name('home');   // basic page
 Route::get('{any}',function($any){                 // page for any route of vue
     return view('home');
 })->where('any','.*');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
