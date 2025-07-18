@@ -22,12 +22,12 @@ This project combines content sharing with instant communication, making it idea
 
 | Layer         | Technology               |
 |---------------|---------------------------|
-| Backend       | Laravel / Node.js / Django (specify yours) |
-| Realtime Chat | Laravel Echo / WebSockets / Firebase / Socket.io |
-| Frontend      | Blade / React / Vue / jQuery |
-| Database      | MySQL / MongoDB / SQLite |
+| Backend       | Laravel / Node.js |
+| Realtime Chat | Laravel Echo / WebSockets / Socket.io |
+| Frontend      | Blade / Vue / jQuery |
+| Database      | MySQL / MongoDB  |
 | Auth System   | Laravel Auth / Passport / JWT |
-| Hosting       | Localhost / Firebase / Heroku (if any) |
+| Hosting       | Localhost / Firebase  |
 
 ---
 
@@ -36,8 +36,8 @@ This project combines content sharing with instant communication, making it idea
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mo7amedshaban/Blog-with-chat.git
-cd Blog-with-chat
+git clone https://github.com/mo7amedshaban/LiveConnect-Blog.git
+cd  LiveConnect-Blog
 
 ```
 
